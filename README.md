@@ -58,7 +58,6 @@ a[class*="abc"] {
 }
 ```
 
-
 ## Usage
 
 ```js
