@@ -1,0 +1,40 @@
+{
+  "name": "postcss-class-patterns",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to match class patterns (prefix, suffix, contains) in a SAFE way.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "prefix",
+    "suffix",
+    "contain",
+    "pattern",
+    "class",
+    "class pattern",
+    "class-starts-with",
+    "class-ends-with",
+    "class-contains"
+  ],
+  "author": "Matthias Müller <MattDiMu@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": "MattDiMu/postcss-class-patterns",
+  "bugs": {
+    "url": "https://github.com/MattDiMu/postcss-class-patterns/issues"
+  },
+  "homepage": "https://github.com/MattDiMu/postcss-class-patterns",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
