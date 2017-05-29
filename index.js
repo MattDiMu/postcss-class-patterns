@@ -24,7 +24,7 @@ function replaceRegex(rule, pseudoClassDefs) {
 }
 
 
-module.exports = postcss.plugin('postcss-class-patterns', function (opts) {
+module.exports = postcss.plugin('postcss-class-patterns', function (opts) { // eslint-disable-line no-unused-vars
     opts = opts || {};
 
     var pseudoClassDefs = [
