@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/MattDiMu/postcss-class-patterns",
   "dependencies": {
-    "postcss": "^5.0.21"
+    "postcss": "^6.0.1"
   },
   "devDependencies": {
-    "ava": "^0.14.0",
-    "eslint": "^2.10.0",
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
     "eslint-config-postcss": "^2.0.2"
   },
   "scripts": {
