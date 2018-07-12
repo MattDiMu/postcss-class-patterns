@@ -1,6 +1,6 @@
 # PostCSS Class Patterns [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin to match class patterns (prefix, suffix, contains) in a SAFE way. This is achieved by combining different attribute selectors with all possible class delimiters (spaces, tabs, line feed, form feed, carriage return). This plugin is inspired by [this post](http://stackoverflow.com/a/37646760/3815374) and follows the [HTML5 Spec](https://www.w3.org/TR/html5/infrastructure.html#space-character)
+[PostCSS] plugin to match class patterns (prefix, suffix, contains) in a SAFE way. This is achieved by combining different attribute selectors with all possible class delimiters (spaces, tabs, line feed, form feed, carriage return). This plugin is inspired by [this post](http://stackoverflow.com/a/37646760/3815374) and follows the [HTML5 Spec](https://www.w3.org/TR/html5/infrastructure.html#space-characters)
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/MattDiMu/postcss-class-patterns.svg
